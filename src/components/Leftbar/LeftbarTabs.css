@@ -1,0 +1,23 @@
+.leftbartabs{
+    display:flex;
+    align-items: center;
+    color: grey;
+    cursor: pointer;
+    transition: 150ms color ease-in;
+    height: 40px;
+}
+
+.leftbartabs:hover{
+    color:white;
+}
+
+.tab_icon{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.leftbartabs > p {
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 14px;
+}

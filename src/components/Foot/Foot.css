@@ -1,0 +1,79 @@
+.foot{
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    background-color: #181818;
+    padding: 20px;
+    display:flex;
+    justify-content:space-between;
+
+}
+
+.foot_left{
+    flex: 0.3;
+    color:white;
+    display: flex;
+    align-items: center;
+    width: 300px;
+    
+}
+
+.foot_icon:hover,
+.foot_green:hover {
+  transition: transform 0.25s ease-in-out;
+  transform: scale(1.25) !important;
+}
+
+.foot_center{
+    flex: 0.4;
+  max-width: 300px;
+  padding: 0 100px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.foot_right{
+
+  display: flex;
+  align-items: center;
+  color: white;
+  flex: 0.3;
+  justify-content: space-between;
+  
+  padding-right: 10px;
+  max-width: 250px;
+  padding-left: 200px;
+  
+  
+}
+
+.foot_green{
+    color: green;
+}
+
+.leftAlbum{
+    height: 60px;
+    width: 60px;
+    margin-right: 20px;
+    object-fit: contain;
+}
+
+.foot_song > h4{
+    margin-bottom: 5px;
+}
+
+.foot_song > p{
+    font-size: 12px;
+    color:lightgrey;
+}
+
+.foot_right * .MuiSlider-root:hover{
+    color:green;
+}
+.slidercolor:not(hovor){
+    color:grey;
+}

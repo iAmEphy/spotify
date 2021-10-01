@@ -1,0 +1,84 @@
+.body{
+    flex: 0.875;
+    background-color: #485461;
+    background-image: linear-gradient(150deg, #485461 0%, #181d24 74%);
+    height: 93vh;
+    color: white;
+    padding: 20px;
+    overflow-y: overlay;
+}
+
+.bodytop{
+    align-items: flex-end;
+    display:flex;
+    padding: 5px
+}
+.bodytoptext{
+    flex: 1;
+}
+.bodytoptext > h2{
+    font-size: 87px;
+    margin-bottom: 25px;
+}
+
+.bodytoptext > p{
+    font-size: 14px;
+    margin-top: -20px;
+}
+
+.bodytop > img{
+    height: 13vw;
+    margin: -5 5px;
+    box-shadow: 0 4px 60px rgba(0, 0, 0, 0.5);
+    
+}
+.bodysonglist{
+    z-index: 1;
+    margin: 20px -30px;
+}
+.bodyicons{
+    display: flex;
+    align-items: center;
+
+}
+
+.bodyshuffle{
+    font-size: 80px !important;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+
+.bodyshuffle:hover {
+    transition: 100ms transform ease-in;
+    transform: scale(1.08);
+}
+
+.bodyicons > .MuiSvgIcon-root {
+    margin-right: 20px;
+}
+
+.bodysonglist > h2 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+  
+.bodysonglist> p {
+    font-size: 14px;
+}
+
+.bodytop > img {
+    height: 20vw;
+    margin: 0 20px;
+    box-shadow: 0 4px 60px rgba(0, 0, 0, 0.5);
+}
+
+.bodytoptext {
+    flex: 1;
+}
+
+.body::-webkit-scrollbar {
+    display: none;
+}

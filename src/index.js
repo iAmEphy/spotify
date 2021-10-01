@@ -4,9 +4,17 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import { originalState } from './components/reducer/reducer';
+import reducer from './components/reducer/reducer';
+import { DataLayer } from './components/Data/Data.js';
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <DataLayer
+      initialState ={ originalState } 
+      reducer = {reducer}>
+      <App />
+    </DataLayer>
   </React.StrictMode>,
   document.getElementById('root')
 );

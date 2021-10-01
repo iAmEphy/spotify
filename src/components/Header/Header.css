@@ -1,0 +1,66 @@
+.header{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    padding-top: -15px;
+}
+
+.lefthead{
+    flex: 0.27;
+    background-color: white;
+    border-radius: 30px;
+    color: gray;
+    display: flex;
+    align-items: center;
+    
+}
+
+.lefthead > input{
+    width:90%;
+    border:none;
+}
+
+.righthead{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+.upgradebutton:hover{
+        transition: transform 0.25s ease-in-out;
+        transform: scale(1.05) !important;
+      
+}
+
+.righthead > h4{
+    margin-left: 10px;
+}
+.Button{
+    width:90%;
+    border:none;
+}
+.divider{
+    width:13px;
+    height:auto;
+    display:inline-block;
+}
+
+.name{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    border-radius: 55px;
+    padding-left: -10px;
+    padding-right: 14px;
+    width: -20px;
+    
+}
+
+.name:hover{
+        transition: transform 0.25s ease-in-out;
+        transform: scale(1.02) !important;
+
+}
+
